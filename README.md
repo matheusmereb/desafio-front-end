@@ -1,8 +1,8 @@
 # Desafio Front-End Angular 2021 
 
-O objetivo deste desafio é avaliarmos seus conhecimentos com o framework angular, com foco em desenvolvimento front-end.
+O objetivo deste desafio é avaliarmos seus conhecimentos em desenvolvimento front-end com o framework angular.
 
-Estaremos observando seu a qualidade do seu código, seu estilo, boas práticas, organização e documentação.
+Estaremos observando a qualidade do seu código, seu estilo, boas práticas, organização e documentação.
 
 ## Regras
 
@@ -14,14 +14,14 @@ Estaremos observando seu a qualidade do seu código, seu estilo, boas práticas,
 
 ## O desafio
 
-Sua missão, caso decida aceitá-la, é criar uma aplicação Web que consuma a API de previsão do tempo do ClimaTempo (https://advisor.climatempo.com.br/).
+Sua missão, caso decida aceitá-la, é criar uma aplicação Web que consuma a API do ClimaTempo (https://advisor.climatempo.com.br/).
 
 O layout fica a seu critério, o que conta são as funcionalidades.
 
 Funcionalidades:
 
-- Página inicial: Uma barra de pesquisa para digitar o nome da cidade e um local onde irão aparecer as informações de previsão do tempo da cidade pesquisada.
-- Capitais: Página onde devem estar relacionadas todas as capitais do Brasil contendo, no mínimo, informações de temperatura máxima e mínima.
+- Página inicial: Um campo para seleção do Estado (UF) e um campo para digitação do Município, e um local onde irão aparecer as informações de previsão do tempo da cidade pesquisada.
+- Capitais: Página onde devem estar relacionadas todas as capitais do Brasil, contendo algumas informações obtidas da API, à sua escolha.
 - Barra de navegação, para alternar entre a página inicial e a página de capitais.
 
 Sinta-se livre para utilizar quaisquer informações que a API te proporcionar.
@@ -30,9 +30,12 @@ Sinta-se livre para utilizar quaisquer informações que a API te proporcionar.
 
 1. Crie um projeto Angular utilizando o Angular CLI.
 2. Adicione a suite DevExtreme ao seu projeto (Dica: Na documentação tem uma sessão específica sobre isso).
-3. Crie a página inicial (Home) da sua aplicação Web, utilizando um `TextBox` para receber o nome da cidade, um `Button` para efetuar a pesquisa e um `TextArea` para exibir as informações recebidas.
-4. Crie a página capitais (Capitais) da sua aplicação Web, utilizando um `Data Grid` para relacionar as capitais. Os nomes das capitais e as informações recebidas deverão ser exibidas em colunas no `Data Grid`.
+3. Crie a página inicial (Home) da sua aplicação Web, utilizando um `TextBox` para receber o nome da cidade, um `SelectBox` para selecionar o estado, um `Button` para efetuar a pesquisa e um `TextArea` para exibir as informações retornadas via API.
+4. Crie a página capitais (Capitais) da sua aplicação Web, utilizando um `Data Grid` para relacionar as capitais. As informações devem ser exibidas em colunas no `Data Grid`.
 5. Crie a barra de navegação, utilizando um componente da suíte DevExtreme à sua escolha.
-
-## Dicas
+6. Acrescente as funções de paginação, ordenação e filtro ao `Data Grid` da página Capitais.
+8. Acrescente ao `Data Grid` da página Capitais os recursos de agrupamento e exportação para Excel.
+8. Modifique a página inicial, substituindo o `TextBox` da cidade por um `SelectBox`. Serão dois componentes `SelectBox`, um para o Estado e outro para o Município. O `SelectBox` dos municípios deve ser populado dinamicamente com base no estado selecionado. Para executar essa etapa você pode utilizar um Fake API, Mock API ou mesmo uma API real, como a do IBGE por exemplo (https://servicodados.ibge.gov.br/api/docs/localidades).
+9. Modifique a página inicial, removendo o `Button` que efetua a consulta. A consulta deve ser feita automaticamente, sempre que for selecionado um município no `SelectBox`.
+10. Adicione um `Data Grid` à página inicial. Esse `Data Grid` deverá ser populado dinamicamente, com as informações dos municípios pesquisados, como um histórico.
 
