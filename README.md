@@ -1,4 +1,4 @@
-# Desafio Front-End Angular 2021 
+# Desafio Front-End Angular
 
 O objetivo deste desafio é avaliarmos seus conhecimentos em desenvolvimento front-end com o framework angular.
 
