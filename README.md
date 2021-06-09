@@ -4,7 +4,7 @@ O objetivo deste desafio é avaliarmos seus conhecimentos com o framework angula
 
 Estaremos observando seu a qualidade do seu código, seu estilo, boas práticas, organização e documentação.
 
-### Regras
+## Regras
 
 1. Seu código deverá ser publicado em um repositório criado a partir de um fork deste, e apresentado como um pull-request para a branch master.
 2. Desenvolver utilizando Angular, TypeScript e Bootstrap nas versões mais recentes disponíveis.
@@ -12,7 +12,7 @@ Estaremos observando seu a qualidade do seu código, seu estilo, boas práticas,
 4. Não é necessário concluir todas as etapas desse desafio. As etapas estão apresentadas em ordem crescente de dificuldade.
 5. A conclusão do desafio não garante uma colocação, apenas nos permitirá identificar seu domínio e senioridade para atuar em nossos projetos.
 
-### O desafio
+## O desafio
 
 Sua missão, caso decida aceitá-la, é criar uma aplicação Web que consuma a API de previsão do tempo do ClimaTempo (https://advisor.climatempo.com.br/).
 
@@ -26,7 +26,7 @@ Funcionalidades:
 
 Sinta-se livre para utilizar quaisquer informações que a API te proporcionar.
 
-Etapas:
+## Etapas:
 
 1. Crie um projeto Angular utilizando o Angular CLI.
 2. Adicione a suite DevExtreme ao seu projeto (Dica: Na documentação tem uma sessão específica sobre isso).
@@ -34,5 +34,5 @@ Etapas:
 4. Crie a página capitais (Capitais) da sua aplicação Web, utilizando um `Data Grid` para relacionar as capitais. Os nomes das capitais e as informações recebidas deverão ser exibidas em colunas no `Data Grid`.
 5. Crie a barra de navegação, utilizando um componente da suíte DevExtreme à sua escolha.
 
-# Dicas
+## Dicas
 
