@@ -31,7 +31,7 @@ Sinta-se livre para utilizar quaisquer informações que a API te proporcionar.
 1. Crie um projeto Angular utilizando o Angular CLI.
 2. Adicione a suite DevExtreme ao seu projeto (Dica: Na documentação tem uma sessão específica sobre isso).
 3. Crie a página inicial da sua aplicação Web, utilizando um `TextBox` para receber o nome da cidade, um `SelectBox` para selecionar o estado, um `Button` para efetuar a pesquisa e um `TextArea` para exibir as informações retornadas via API.
-4. Crie a página Capitais da sua aplicação Web, utilizando um `Data Grid` para relacionar as capitais. As informações devem ser exibidas em colunas no `Data Grid`.
+4. Crie a página Capitais da sua aplicação Web, utilizando um `Data Grid` para relacionar as capitais. As informações (estado, município, previsão do tempo) devem ser exibidas em colunas no `Data Grid`.
 5. Crie a barra de navegação, utilizando um componente da suíte DevExtreme à sua escolha.
 6. Acrescente as funções de paginação, ordenação e filtro ao `Data Grid` da página Capitais.
 8. Acrescente ao `Data Grid` da página Capitais os recursos de agrupamento e exportação para Excel.
