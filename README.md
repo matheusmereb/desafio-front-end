@@ -20,7 +20,7 @@ O layout fica a seu critério, o que conta são as funcionalidades.
 
 Funcionalidades:
 
-- Página inicial: Um campo para seleção do Estado (UF) e um campo para digitação do Município, e um local onde irão aparecer as informações de previsão do tempo da cidade pesquisada.
+- Página inicial: Um campo para seleção do *Estado (UF)*, um campo para digitação do *Município*, um botão *Pesquisar* e um local onde irão aparecer as informações de previsão do tempo da cidade pesquisada.
 - Capitais: Página onde devem estar relacionadas todas as capitais do Brasil, contendo algumas informações obtidas da API, à sua escolha.
 - Barra de navegação, para alternar entre a página inicial e a página de capitais.
 
