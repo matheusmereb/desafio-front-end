@@ -33,8 +33,8 @@ Sinta-se livre para utilizar quaisquer informações que a API te proporcionar.
 3. Crie a página inicial da sua aplicação Web, utilizando um `TextBox` para receber o nome da cidade, um `SelectBox` para selecionar o estado, um `Button` para efetuar a pesquisa e um `TextArea` para exibir as informações retornadas via API.
 4. Crie a página Capitais da sua aplicação Web, utilizando um `Data Grid` para relacionar as capitais. As informações (estado, município, previsão do tempo) devem ser exibidas em colunas no `Data Grid`.
 5. Crie a barra de navegação, utilizando um componente da suíte DevExtreme à sua escolha.
-6. Acrescente as funções de paginação, ordenação e filtro ao `Data Grid` da página Capitais.
-8. Acrescente ao `Data Grid` da página Capitais os recursos de agrupamento e exportação para Excel.
+6. Acrescente as funções de ordenação e filtro ao `Data Grid` da página Capitais.
+8. Acrescente ao `Data Grid` da página Capitais os recursos de paginação, exportação para Excel e exportação para PDF.
 8. Modifique a página inicial, substituindo o `TextBox` da cidade por um `SelectBox`. Serão dois componentes `SelectBox`, um para o Estado e outro para o Município. O `SelectBox` dos municípios deve ser populado dinamicamente com base no estado selecionado. Para executar essa etapa você pode utilizar um Fake API, Mock API ou mesmo uma API real, como a do IBGE por exemplo (https://servicodados.ibge.gov.br/api/docs/localidades).
 9. Modifique a página inicial, removendo o `Button` que efetua a consulta. A consulta deve ser feita automaticamente, sempre que for selecionado um município no `SelectBox`.
 10. Adicione um `Data Grid` à página inicial. Esse `Data Grid` deverá ser populado dinamicamente, com as informações dos municípios pesquisados, como um histórico.
