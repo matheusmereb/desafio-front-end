@@ -36,5 +36,5 @@ Sinta-se livre para utilizar quaisquer informações que a API te proporcionar.
 6. Acrescente as funções de ordenação e filtro ao `Data Grid` da página Capitais.
 8. Acrescente ao `Data Grid` da página Capitais os recursos de paginação, exportação para Excel e exportação para PDF.
 8. Modifique a página inicial, substituindo o `TextBox` da cidade por um `SelectBox`. Serão dois componentes `SelectBox`, um para o Estado e outro para o Município. O `SelectBox` dos municípios deve ser populado dinamicamente com base no estado selecionado. Para executar essa etapa você pode utilizar um Fake API, Mock API ou mesmo uma API real, como a do IBGE por exemplo (https://servicodados.ibge.gov.br/api/docs/localidades).
-9. Modifique a página inicial, removendo o `Button` que efetua a consulta. A consulta deve ser feita automaticamente, sempre que for selecionado um município no `SelectBox`.
+9. Modifique a página inicial, removendo o `Button` *Pesquisar*. A consulta à API deve ocorrer automaticamente, sempre que for selecionado um município no `SelectBox`.
 10. Adicione um `Data Grid` à página inicial. Esse `Data Grid` deverá ser populado dinamicamente, com as informações dos municípios pesquisados, como um histórico.
