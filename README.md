@@ -8,7 +8,7 @@ Estaremos observando a qualidade do seu código, seu estilo, boas práticas, org
 
 1. Seu código deverá ser publicado em um repositório criado a partir de um fork deste, e apresentado como um pull-request para a branch master.
 2. Desenvolver utilizando Angular, TypeScript e Bootstrap nas versões mais recentes disponíveis.
-3. Você deve utilizar, quando possível, os componentes da suite DevExtreme (https://js.devexpress.com).
+3. Você deve utilizar, sempre que possível, os componentes da suite DevExtreme (https://js.devexpress.com).
 4. Não é necessário concluir todas as etapas desse desafio. As etapas estão apresentadas em ordem crescente de dificuldade.
 5. A conclusão do desafio não garante uma colocação, apenas nos permitirá identificar seu domínio e senioridade para atuar em nossos projetos.
 
@@ -38,4 +38,3 @@ Sinta-se livre para utilizar quaisquer informações que a API te proporcionar.
 8. Modifique a página inicial, substituindo o `TextBox` da cidade por um `SelectBox`. Serão dois componentes `SelectBox`, um para o Estado e outro para o Município. O `SelectBox` dos municípios deve ser populado dinamicamente com base no estado selecionado. Para executar essa etapa você pode utilizar um Fake API, Mock API ou mesmo uma API real, como a do IBGE por exemplo (https://servicodados.ibge.gov.br/api/docs/localidades).
 9. Modifique a página inicial, removendo o `Button` que efetua a consulta. A consulta deve ser feita automaticamente, sempre que for selecionado um município no `SelectBox`.
 10. Adicione um `Data Grid` à página inicial. Esse `Data Grid` deverá ser populado dinamicamente, com as informações dos municípios pesquisados, como um histórico.
-
