@@ -1,0 +1,11 @@
+<!-- Text Box para o nome da cidade -->
+<dx-text-box>Ex.: São Paulo</dx-text-box>
+
+<!-- Select Box de estados -->
+<dx-select-box [dataSource]="estados" displayExpr="Sigla" valueExpr="Sigla" (onValueChanged)="optionChanged($event)"></dx-select-box>
+
+<!-- Botão de pesquisa -->
+<dx-button></dx-button>
+
+<!-- Text Area -->
+<dx-text-area></dx-text-area>
